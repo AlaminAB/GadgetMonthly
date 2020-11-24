@@ -1,0 +1,158 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container, .container-md, .container-sm {
+        max-width: 100% !important;
+        padding: 0px 20px;
+    }
+    a.visit-btn {
+        padding: 13px 20px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-description ul li {
+        font-size: 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .product-card-3 {
+        order: 2;
+        width: 42%;
+    }
+    .product-card-2 {
+        order: 3;
+        width: 100%;
+        padding: 0px 35px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .product-card-1 {
+        order: 1;
+        width: 58%;
+        overflow: hidden;
+    }
+    .product-description ul {
+        column-count: 1;
+    }
+    .product-card-3 {
+        background-color: #fff;
+    }
+    .product-card-1 img {
+        width: 100%;
+        max-width: 250px;
+        padding: 20px;
+        margin-top: 12px;
+    }
+    .new-price h5 {
+        display: inline-block;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .old-price h5 {
+        font-size: 14px;
+        color: #212529;
+        margin: 0;
+    }
+    p.best-rated {
+        max-width: 90%;
+        width: 90%;
+        line-height: 26px;
+        text-align: left;
+        font-size: 12px;
+        height: 30px;
+    }
+    .two-price {
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 14px;
+    }
+    .product-card-3-info {
+        padding-top: 16px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .product-card-3-info h3 {
+        font-size: 56px;
+        font-weight: 700;
+        color: #000;
+        margin-top: 6px;
+    }
+    .product-card-3-info h5 {
+        font-size: 14px;
+    }
+    .product-card-3-info p {
+        color: #777;
+        font-size: 12px;
+        margin: 0px 0 2px;
+        font-weight: bold;
+    }
+    p.number {
+        width: 35px;
+        height: 30px;
+        font-size: 14px;
+        padding-top: 1px;
+    }
+    a.visit-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    a.review {
+        padding-left: 0;
+    }
+    .footer-nav ul li {
+        display: block;
+        margin-right: 10px;
+        border-right: 0;
+        padding-right: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .score-wrap .score {
+        font-size: 15px;
+    }
+    .product-card-3-info h3 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #000;
+        margin-top: 3px;
+    }
+    .product-card-3-info {
+        padding-bottom: 20px;
+    }
+    .product-top-left h3 {
+        font-size: 15px;
+    }
+    .product-top-right {
+        margin-left: 20px;
+
+    }
+    p.best-rated {
+        max-width: 60%;
+        width: 60%;
+    }
+    .product-card-1 {
+        width: 55%;
+    }
+    .product-card-3 {
+        width: 45%;
+    }
+}
