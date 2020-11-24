@@ -750,10 +750,10 @@
 
 <script type="text/javascript">
 // 'https://freegeoip.app/json/
- $.get('http://ip-api.com/json',function(response){
+ $.get('https://freegeoip.app/json/',function(response){
      
-console.log( response)
- let img = `<img src="https://www.countryflags.io/${response.countryCode}/flat/64.png">`
+console.log( response.country_code)
+ let img = `<img src="https://www.countryflags.io/${response.country_code}/flat/64.png">`
 $("#flag").append(img)
 
  },'json');
