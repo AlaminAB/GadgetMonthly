@@ -93,9 +93,9 @@ p {
 }
 
 a {
-  color: var(--a);
+  color: #007bff;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /************** Default CSS End **************/
@@ -390,6 +390,7 @@ a.review {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
+  width: 0%;
   
 }
 
